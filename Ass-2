@@ -1,0 +1,15 @@
+lines (11 sloc)  176 Bytes
+Write a program to print sum of n factorials.
+
+n=int(input('Enter n:'))
+sum=0
+f=1
+for i in range(1,n+1):
+      f=f*i
+      sum=sum+f
+
+print(sum)
+        
+output:
+Enter n:5
+153
